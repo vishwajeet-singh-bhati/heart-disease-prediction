@@ -1,31 +1,34 @@
-Heart Disease Prediction System
-    A professional-grade Streamlit web application that leverages machine learning to predict the likelihood of heart disease based on clinical parameters.
+# ❤️ Heart Disease Prediction System
 
-📊 Overview
-    This project uses a Random Forest classification model to analyze patient data—such as age, cholesterol, and chest pain type—to determine cardiovascular risk. The application        provides real-time predictions, probability scores, and health recommendations through an interactive dashboard.
+A professional-grade **Streamlit** web application that leverages machine learning to predict the likelihood of heart disease based on clinical parameters.
 
-Key Features
-    Predictive Engine: Utilizes a Random Forest model with an 85% accuracy and 0.94 ROC-AUC score.
-    Interactive Input: Users can input 13 medical attributes through a clean, two-column interface.
-    Data Visualization: Includes a dynamic Plotly gauge chart to visualize heart disease risk scores.
-    Automatic Scaling: Features a pre-fitted StandardScaler to ensure numerical inputs are processed correctly before prediction.
-    Health Insights: Generates specific recommendations based on whether the result is classified as "High Risk" or "Low Risk".
+---
 
-🛠️ Tech Stack
-    Frontend: Streamlit
-    Data Analysis: Pandas, NumPy
-    Machine Learning: Scikit-learn (Random Forest & StandardScaler)
-    Visualization: Plotly Graph Objects
-    Model Storage: Pickle
+## 📊 Overview
+This project uses a **Random Forest** classification model to analyze patient data—such as age, cholesterol, and chest pain type—to determine cardiovascular risk. The application provides real-time predictions, probability scores, and health recommendations through an interactive dashboard.
 
-📂 Project Structure
-    Your repository should be organized as follows to match the application logic:
-        ├── models/
-    │   ├── best_model_random_forest.pkl  # The trained classifier
-    │   └── scaler.pkl                   # The fitted StandardScaler
-    ├── app.py                           # The main Streamlit application code
-    ├── requirements.txt                 # Python dependencies
-    └── README.md                        # Documentation
+## 🚀 Key Features
+* **Predictive Engine:** Utilizes a Random Forest model with an **85% accuracy** and **0.94 ROC-AUC** score.
+* **Interactive Input:** Users can input 13 medical attributes through a clean, two-column interface.
+* **Data Visualization:** Includes a dynamic Plotly gauge chart to visualize heart disease risk scores.
+* **Automatic Scaling:** Features a pre-fitted `StandardScaler` to ensure numerical inputs are processed correctly.
+* **Health Insights:** Generates specific recommendations based on "High Risk" or "Low Risk" classifications.
+
+## 🛠️ Tech Stack
+* **Frontend:** Streamlit
+* **Data Analysis:** Pandas, NumPy
+* **Machine Learning:** Scikit-learn (Random Forest & StandardScaler)
+* **Visualization:** Plotly Graph Objects
+* **Model Storage:** Pickle
+
+## 📂 Project Structure
+```text
+├── models/
+│   ├── best_model_random_forest.pkl  # The trained classifier
+│   └── scaler.pkl                   # The fitted StandardScaler
+├── app.py                           # The main Streamlit application code
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Documentation
 
 🚀 Getting Started
     1. Prerequisites
