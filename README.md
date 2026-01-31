@@ -32,10 +32,10 @@ This project uses a **Random Forest** classification model to analyze patient da
 
 ## Medical Attributes Used
 The model evaluates the following top predictors and clinical metrics:
-Chest Pain Type: Typical Angina, Atypical Angina, Non-anginal, or Asymptomatic.
-Thalassemia: Normal, Fixed Defect, or Reversible Defect.
-Max Heart Rate: Highest heart rate achieved during exercise.
-Other Metrics: Age, Sex, Resting BP, Cholesterol, Fasting Blood Sugar, Resting ECG, ST Depression, and more.
+* **Chest Pain Type:** Typical Angina, Atypical Angina, Non-anginal, or Asymptomatic.
+* **Thalassemia:** Normal, Fixed Defect, or Reversible Defect.
+* **Max Heart Rate:** Highest heart rate achieved during exercise.
+* **Other Metrics:** Age, Sex, Resting BP, Cholesterol, Fasting Blood Sugar, Resting ECG, ST Depression, and more.
 
 *⚠️ Disclaimer*
 For Educational Purposes Only. This application is a machine learning demonstration and should not be used for actual medical diagnosis. Always consult a healthcare professional for medical advice.
