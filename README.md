@@ -21,6 +21,26 @@ This project uses a **Random Forest** classification model to analyze patient da
 * **Visualization:** Plotly Graph Objects
 * **Model Storage:** Pickle
 
+## 🚀 Getting Started
+* **1. Prerequisites:**
+        Ensure you have Python installed, then clone this repository and navigate to the project folder.
+* **2. Install Dependencies:**
+        Create a virtual environment and install the required libraries:
+      text->pip install streamlit pandas numpy plotly scikit-learn
+* **3. Run the Application:**
+      ->streamlit run app.py
+
+## Medical Attributes Used
+The model evaluates the following top predictors and clinical metrics:
+Chest Pain Type: Typical Angina, Atypical Angina, Non-anginal, or Asymptomatic.
+Thalassemia: Normal, Fixed Defect, or Reversible Defect.
+Max Heart Rate: Highest heart rate achieved during exercise.
+Other Metrics: Age, Sex, Resting BP, Cholesterol, Fasting Blood Sugar, Resting ECG, ST Depression, and more.
+
+*⚠️ Disclaimer*
+For Educational Purposes Only. This application is a machine learning demonstration and should not be used for actual medical diagnosis. Always consult a healthcare professional for medical advice.
+
+
 ## 📂 Project Structure
 ```text
 ├── models/
@@ -29,25 +49,6 @@ This project uses a **Random Forest** classification model to analyze patient da
 ├── app.py                           # The main Streamlit application code
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Documentation
-
-🚀 Getting Started
-    1. Prerequisites
-        Ensure you have Python installed, then clone this repository and navigate to the project folder.
-    2. Install Dependencies
-        Create a virtual environment and install the required libraries:
-      ->pip install streamlit pandas numpy plotly scikit-learn
-    3. Run the Application
-      ->streamlit run app.py
-    
-📋 Medical Attributes Used
-    The model evaluates the following top predictors and clinical metrics:
-    Chest Pain Type: Typical Angina, Atypical Angina, Non-anginal, or Asymptomatic.
-    Thalassemia: Normal, Fixed Defect, or Reversible Defect.
-    Max Heart Rate: Highest heart rate achieved during exercise.
-    Other Metrics: Age, Sex, Resting BP, Cholesterol, Fasting Blood Sugar, Resting ECG, ST Depression, and more.
-
-⚠️ Disclaimer
-For Educational Purposes Only. This application is a machine learning demonstration and should not be used for actual medical diagnosis. Always consult a healthcare professional for medical advice.
 
 
 
