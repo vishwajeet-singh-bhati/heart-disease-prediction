@@ -43,10 +43,19 @@ For Educational Purposes Only. This application is a machine learning demonstrat
 
 ## 📂 Project Structure
 ```text
+├── data/
+│   ├── heart_disease.csv            # Raw dataset
+│   ├── X_train.csv / X_test.csv     # Training/Testing features
+│   └── y_train.csv / y_test.csv     # Training/Testing labels
 ├── models/
-│   ├── best_model_random_forest.pkl  # The trained classifier
+│   ├── best_model_random_forest.pkl # The trained classifier
 │   └── scaler.pkl                   # The fitted StandardScaler
+├── notebooks/
+│   ├── 01_data_exploration.ipynb    # Initial EDA
+│   ├── 02_data_preprocessing.ipynb  # Cleaning and scaling
+│   └── 03_models_training.ipynb     # Model training and tuning
 ├── app.py                           # The main Streamlit application code
+├── download_data.py                 # Script to fetch/update dataset
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Documentation
 
